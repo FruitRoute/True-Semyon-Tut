@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlameAnimation : MonoBehaviour
-{
-    public int 
+public class FlameAnimation : MonoBehaviour {
 
-    // Update is called once per frame
+    public string Log;
+    
     void Update()
     {
-        
+        Debug.Log(Log);
     }
 }
